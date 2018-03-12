@@ -1,0 +1,35 @@
+{
+  "components": [
+    {
+      "tag": "my-component",
+      "dependencies": [],
+      "componentClass": "MyComponent",
+      "componentPath": "components/my-component/my-component.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/my-component/my-component.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "first",
+          "type": "String"
+        },
+        {
+          "name": "last",
+          "type": "String"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.6.18",
+    "typescriptVersion": "2.7.2"
+  },
+  "bundles": []
+}
